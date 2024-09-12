@@ -38,7 +38,7 @@ void SensorAndLedSetup()
 
   digitalWrite(BUZZER_PIN, LOW);
 
-  lcd.init();
+  lcd.begin();
   lcd.display();        
   lcd.backlight();      
   lcd.clear();          
