@@ -103,11 +103,7 @@ void loop() {
 
     case 9://Reset
       ESP.restart();
-      break;
-      
-    
-    case 10:   //Grapdetectmove
-    break; 
+      break; 
   }
 }
 void LightStop()
